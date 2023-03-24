@@ -1,0 +1,96 @@
+.cartImage {
+  -webkit-box-shadow: 0 15px 30px 0 rgba(239, 67, 57, 0.2);
+  box-shadow: 0 15px 30px 0 rgba(239, 67, 57, 0.2);
+  border-radius: 10px;
+  object-fit: cover;
+}
+.cartContainers {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.cartQuantityValue {
+  width: 50px;
+  height: 30px;
+  margin: 0px 3px;
+  -webkit-box-shadow: 0 15px 30px 0 rgba(239, 67, 57, 0.2);
+  box-shadow: 0 15px 30px 0 rgba(239, 67, 57, 0.2);
+  border-radius: 10px;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.decrementCart {
+  width: 20px;
+  height: 20px;
+  /* background-color: red; */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  -webkit-box-shadow: 0 15px 30px 0 rgba(239, 67, 57, 0.2);
+  box-shadow: 0 15px 30px 0 rgba(239, 67, 57, 0.2);
+}
+.incrementDataCart {
+  display: flex;
+  align-items: center;
+}
+.incrementDataValue {
+  width: 20px;
+  height: 20px;
+  /* background-color: red; */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  -webkit-box-shadow: 0 15px 30px 0 rgba(239, 67, 57, 0.2);
+  box-shadow: 0 15px 30px 0 rgba(239, 67, 57, 0.2);
+}
+.removeCartList {
+  width: 20px;
+  height: 20px;
+  /* background-color: red; */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  -webkit-box-shadow: 0 15px 30px 0 rgba(239, 67, 57, 0.2);
+  box-shadow: 0 15px 30px 0 rgba(239, 67, 57, 0.2);
+}
+.cartCheckoutSection {
+  width: 200px;
+}
+/*  */
+@media only screen and (max-width: 3000px) {
+  .productSliderMain {
+    /* width: 200px; */
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .productSliderMain {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 464px) {
+  .product .product-img {
+    width: 100%;
+    position: relative;
+    height: 320px;
+    overflow: hidden;
+  }
+}
+.productSliderMain{
+flex-wrap: wrap;
+}
+.CartTagLine{
+ float: right;
+  background-color: red;
+  padding: 0 6px;
+  color: white;
+  border-radius: 4px;
+  margin-right: 3%;
+}

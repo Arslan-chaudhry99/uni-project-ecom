@@ -1,0 +1,77 @@
+.labelFacts {
+  font-weight: 500;
+  border: 0;
+}
+.labelFactsInput {
+  border-radius: 10px;
+}
+.postSlection {
+  width: 95%;
+  background-color: #17a2b8;
+  color: white;
+  border-radius: 4px;
+  border: 0;
+  padding: 10px 16px;
+  border-radius: 10px;
+}
+.ButtonsForEditr {
+  padding: 5px 10px;
+  background-color: #17a2b8;
+  color: white;
+  border: #17a2b8;
+  border-radius: 5px;
+}
+.inputSitePro {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.inputSettingFields {
+  border-radius: 5px;
+  border-color: #17a2b8;
+}
+.selectionCateory {
+  width: 100%;
+  border: #17a2b8;
+
+  padding: 10px 3px;
+  border-radius: 5px;
+  background-color: white;
+}
+.imagesTagesFor {
+  display: flex;
+  height: 200px;
+  overflow-x: scroll;
+}
+
+#product-tab .inputsDatas {
+  border: 1px solid #17a2b8;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  outline: none;
+padding: 20px 20px;
+}
+.displayingItems{
+  display: flex;
+  margin-bottom: 10px;
+  margin-top: 10px;
+ flex-direction: column;
+}
+.actualItemsDetails{
+  width: 100px;
+  padding: 11px 4px !important;
+  height: 20px;
+  font-size: 10px;
+  overflow: hidden;
+  border-radius: 3px;
+  background-color: wheat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+margin-left: 10px;
+flex-shrink: 1;
+margin-bottom: 5px;
+
+}

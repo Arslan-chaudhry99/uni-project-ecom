@@ -1,0 +1,76 @@
+.rating-stars {
+  color: red;
+}
+.detailsSections {
+  background-color: #f1f2f6;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+.brandProduct {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.brandProductSpect {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  color: #0984e3;
+}
+.ProductPricing {
+  margin-bottom: 40px;
+}
+.brandDetailsSection {
+  background-color: #dddfe5;
+  padding: 4px 20px;
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+  margin-bottom: 30px;
+}
+
+.ProductCoverData {
+  color: rgba(48, 63, 74, 0.5);
+}
+.ProductCoverDataright {
+  color: black;
+}
+.ProductCoverData .moreProDetails div {
+  display: inline;
+  padding: 0px 60px 0px 0px;
+}
+.brandDetailsSection span {
+  margin-left: 20px;
+}
+.brandDetailsSectionlogo {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  display: flex;
+  border: 10px solid white;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.brandDetailsSectionlogo i {
+  font-size: 20px;
+}
+.reviewsOfThisProduct {
+  width: 100%;
+  background-color: #f1f2f6;
+  border-radius: 5px;
+  padding: 10px 0px 10px 0px;
+  margin-top: 20px;
+ 
+}
+.seeViewsData{
+  width: 120px;
+  border-radius: 5px;
+  padding: 5px;
+}
+.productReviewsData{
+  width: 100%;
+  background-color: red;
+}
